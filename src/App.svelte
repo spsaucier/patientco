@@ -13,7 +13,7 @@
 		return portfolio;
 	});
 	export const promise = new Promise((resolve, reject) =>
-		fetch('http://openexchangerates.org/api/latest.json?app_id=925b5c034e404a678862b0ea49a2fab6')
+		fetch('https://openexchangerates.org/api/latest.json?app_id=925b5c034e404a678862b0ea49a2fab6')
 		.then(function(response) {
 			let result = response.json();
 			return result;
